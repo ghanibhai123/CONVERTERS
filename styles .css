@@ -8,7 +8,6 @@ body {
     background-color: #180734; /* Background color */
     position: relative; /* For star positioning */
 }
-
 .container {
     text-align: center;
     background: #778DA9; /* Container color */
@@ -16,18 +15,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
     margin-bottom: 20px;
     color: #000; /* Black text for better contrast on the light background */
 }
-
-
 input[type="file"] {
     margin-bottom: 20px;
     padding: 10px;
 }
-
 button {
     padding: 10px 20px;
     border: none;
@@ -42,11 +37,6 @@ button:hover {
     background-color: #001533; /* Darker navy blue color for hover effect */
 }
 
-/* Star styles */
-.stars {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
     background: transparent;
